@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">klean</string>
+
+    <!-- options: analog, digital -->
+    <!-- note: digital is not yet accepted -->
+    <string name="clock_type">analog</string>
+
+    <!-- general settings -->
+    <string name="has_second">true</string>
+    <string name="has_ambient">false</string>
+
+    <!-- analog only settings -->
+    <string name="dial">dial</string>
+    <string name="hour">hour</string>
+    <string name="minute">minute</string>
+    <string name="second">second</string>
+
+    <!-- digital only settings -->
+
+</resources>
