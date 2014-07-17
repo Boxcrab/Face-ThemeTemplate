@@ -1,5 +1,10 @@
 <resources>
+    <!-- global settings for app interfacing, do not change without checking the git -->
+    <string name="themelayout_version">1</string>
+
     <string name="app_name">klean</string>
+    <string name="theme_version">1</string>
+    <string name="theme_author">WJD</string>
 
     <!-- options: analog, digital -->
     <!-- note: digital is not yet accepted -->
@@ -8,6 +13,11 @@
     <!-- general settings -->
     <string name="has_second">true</string>
     <string name="has_ambient">false</string>
+    <string name="has_background">false</string>
+    <string name="dim_dropBackgroundDial">true</string>
+
+    <!-- this goes under the analog dial or is digital background, is useroverridable via app -->
+    <string name="generalBackground">background</string>
 
     <!-- analog only settings -->
     <string name="dial">dial</string>
@@ -15,6 +25,22 @@
     <string name="minute">minute</string>
     <string name="second">second</string>
 
-    <!-- digital only settings -->
+    <!-- dim analog settings -->
+    <string name="dimdial">dimdial</string>
+    <string name="dimhour">dimhour</string>
+    <string name="dimminute">dimminute</string>
+    <string name="dimsecond">dimsecond</string>
+
+
+    <!-- digital only settings, still do nothing -->
+    <string name="digitalLayout">layoutDigital</string>
+    <string name="digitalFont">sweetFontPackageThing</string>
+
+    <!-- can be overridden by user -->
+    <string name="digitalColor">sweetFontPackageThing</string>
+
+
+
+
 
 </resources>
