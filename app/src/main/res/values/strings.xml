@@ -31,6 +31,10 @@
     <string name="dimminute">dimminute</string>
     <string name="dimsecond">dimsecond</string>
 
+    <!-- analog hands layout, top to bottom -->
+    <string name="analog_one">hour</string>
+    <string name="analog_two">minute</string>
+    <string name="analog_three">second</string>
 
     <!-- digital only settings, still do nothing -->
     <string name="digitalLayout">layoutDigital</string>
