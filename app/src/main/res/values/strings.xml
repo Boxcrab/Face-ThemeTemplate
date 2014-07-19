@@ -7,7 +7,6 @@
     <string name="theme_author">WJD</string>
 
     <!-- options: analog, digital -->
-    <!-- note: digital is not yet accepted -->
     <string name="clock_type">analog</string>
 
     <!-- general settings -->
@@ -25,6 +24,8 @@
     <string name="minute">minute</string>
     <string name="second">second</string>
 
+    <string name="dim_justDropBG">true</string>
+
     <!-- dim analog settings -->
     <string name="dimdial">dimdial</string>
     <string name="dimhour">dimhour</string>
@@ -32,13 +33,46 @@
     <string name="dimsecond">dimsecond</string>
 
     <!-- analog hands layout, top to bottom -->
-    <string name="analog_one">hour</string>
+    <string name="analog_one">second</string>
     <string name="analog_two">minute</string>
-    <string name="analog_three">second</string>
+    <string name="analog_three">hour</string>
 
-    <!-- digital only settings, still do nothing -->
-    <string name="digitalLayout">layoutDigital</string>
+    <!-- digital only settings -->
     <string name="digitalFont">sweetFontPackageThing</string>
+
+    <!-- X and Y settings must be set together -->
+    <string name="hour_x">75</string>
+    <string name="hour_y">50</string>
+
+    <string name="minute_x">75</string>
+    <string name="minute_y">100</string>
+
+    <string name="ampm_x">125</string>
+    <string name="ampm_y">75</string>
+
+    <string name="hourColor">#ffffff</string>
+    <string name="minuteColor">#ffffff</string>
+    <string name="ampmColor">#ffffff</string>
+
+    <string name="hourSize">50</string>
+    <string name="minuteSize">50</string>
+    <string name="ampmSize">50</string>
+
+    <string name="hourStyle">1</string>
+    <string name="minuteStyle">1</string>
+    <string name="ampmStyle">2</string>
+
+    <!-- this is a float, and it should really be an actual fucking float along with all the otehr numbers here
+    but lazyness right now is at an all time high, once we rewrite the actual on the phone app, then we can do that shit -->
+    <string name="hourStroke">1.0</string>
+    <string name="minuteStroke">2.0</string>
+    <string name="ampmStroke">3</string>
+
+    <!-- type of background for digital [color, drawable]-->
+    <string name="backgroundType">color</string>
+    <string name="backgroundColor">#000000</string>
+    <string name="backgroundDrawable">digitalBackground</string>
+
 
     <!-- can be overridden by user -->
     <string name="digitalColor">sweetFontPackageThing</string>
