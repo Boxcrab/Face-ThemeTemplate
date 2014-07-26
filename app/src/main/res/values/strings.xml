@@ -14,106 +14,12 @@
 
     <!-- general settings -->
     <string name="has_second">true</string>
-    <string name="has_ambientsecond">true</string>
-    <string name="has_ambient">false</string>
     <string name="has_background">false</string>
-    <string name="dim_dropBackground">false</string>
-    <string name="dim_justDropBG">false</string>
-
-    <!-- this goes under the analog dial or is digital background -->
     <string name="generalBackground">background</string>
 
-    <!-- analog only settings -->
-    <string name="dial">dial</string>
-    <string name="hour">hour</string>
-    <string name="minute">minute</string>
-    <string name="second">second</string>
-
-    <!-- dim analog settings -->
-    <string name="dimdial">dimdial</string>
-    <string name="dimhour">dimhour</string>
-    <string name="dimminute">dimminute</string>
-    <string name="dimsecond">dimsecond</string>
-
-    <!-- analog hands layout, top to bottom -->
-    <string name="analog_one">second</string>
-    <string name="analog_two">minute</string>
-    <string name="analog_three">hour</string>
-
-    <!-- digital only settings -->
-    <!-- does nothing right now -->
-    <string name="digitalFont">sweetFontPackageThing</string>
-
-    <!-- X and Y settings must be set together -->
-    <!-- X and Y are from the top left corner of the screen -->
-    <string name="hour_x">75</string>
-    <string name="hour_y">75</string>
-
-    <string name="minute_x">75</string>
-    <string name="minute_y">150</string>
-
-    <string name="ampm_x">175</string>
-    <string name="ampm_y">125</string>
-
-
-    <!-- color of text for digital watchfaces -->
-    <string name="hourColor">#000000</string>
-    <string name="minuteColor">#000000</string>
-    <string name="ampmColor">#000000</string>
-
-    <!-- color of text when the watch dims for watchfaces -->
-    <string name="hourDimColor">#ffffff</string>
-    <string name="minuteDimColor">#ffffff</string>
-    <string name="ampmDimColor">#ffffff</string>
-
-    <!-- font size in sp -->
-    <string name="hourSize">150</string>
-    <string name="minuteSize">200</string>
-    <string name="ampmSize">50</string>
-
-    <!-- font styles, 0 = fill, 1 = fill and stroke, 2 = stroke -->
-    <string name="hourStyle">0</string>
-    <string name="minuteStyle">0</string>
-    <string name="ampmStyle">0</string>
-
-    <!-- stroke of text -->
-    <string name="hourStroke">0.0</string>
-    <string name="minuteStroke">0.0</string>
-    <string name="ampmStroke">0.0</string>
-
-    <!-- shadow stuff -->
-    <string name="shadowOnlyOnWake">true</string>
-    <string name="shadowHour">false</string>
-    <string name="shadowMinute">false</string>
-    <string name="shadowAMPM">false</string>
-
-    <!-- these settings are the same as can be found in
-    http://developer.android.com/reference/android/graphics/Paint.html#setShadowLayer(float, float, float, int)
-    pretty simple stuff, radius = radius ect -->
-    <string name="hourShadowRadius">0.0</string>
-    <string name="minuteShadowRadius">0.0</string>
-    <string name="ampmShadowRadius">0.0</string>
-    <string name="hourShadowDx">0.0</string>
-    <string name="minuteShadowDx">0.0</string>
-    <string name="ampmShadowDx">0.0</string>
-    <string name="hourShadowDy">0.0</string>
-    <string name="minuteShadowDy">0.0</string>
-    <string name="ampmShadowDy">0.0</string>
-
-    <string name="hourShadowColor">#ffffff</string>
-    <string name="minuteShadowColor">#ffffff</string>
-    <string name="ampmShadowColor">#ffffff</string>
-
-    <!-- type of background for digital [color, drawable]-->
-    <!-- does nothing right now -->
-    <string name="backgroundType">color</string>
-    <string name="backgroundColor">#ffffff</string>
-    <string name="backgroundDimColor">#000000</string>
-    <string name="backgroundDrawable">digitalBackground</string>
-    <string name="backgroundDimDrawable">digitalDimBackground</string>
-
-    <!-- can be overridden by user -->
-    <!-- does nothing right now -->
-    <string name="digitalColor">sweetFontPackageThing</string>
+    <!-- ambient settings -->
+    <string name="has_ambient">false</string>
+    <string name="has_ambientsecond">false</string>
+    <string name="dim_justDropBG">true</string>
 
 </resources>

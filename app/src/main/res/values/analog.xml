@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- analog only settings -->
+    <string name="dial">dial</string>
+    <string name="hour">hour</string>
+    <string name="minute">minute</string>
+    <string name="second">second</string>
+
+    <!-- dim analog settings -->
+    <string name="dimdial">dimdial</string>
+    <string name="dimhour">dimhour</string>
+    <string name="dimminute">dimminute</string>
+    <string name="dimsecond">dimsecond</string>
+
+    <!-- analog hands layout, top to bottom -->
+    <string name="analog_one">hour</string>
+    <string name="analog_two">minute</string>
+    <string name="analog_three">second</string>
+
+    <string name="hourx">-50</string>
+    <string name="houry">-50</string>
+    <string name="minutex">0</string>
+    <string name="minutey">0</string>
+    <string name="secondx">50</string>
+    <string name="secondy">50</string>
+
+
+</resources>
