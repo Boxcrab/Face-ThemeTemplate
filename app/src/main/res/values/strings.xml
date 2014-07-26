@@ -1,13 +1,16 @@
-<resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
     <!-- global settings for app interfacing, do not change without checking the git -->
-    <string name="themelayout_version">1</string>
+    <!-- as the application updates, so will this as more features are added and things get changed -->
+    <!-- any removals will be depreciated before we lose them entirely -->
+    <string name="version">1</string>
 
-    <string name="app_name">klean</string>
-    <string name="theme_version">1</string>
-    <string name="theme_author">WJD</string>
+    <string name="name">klean</string>
+    <string name="localversion">1</string>
+    <string name="author">WJD</string>
 
     <!-- options: analog, digital -->
-    <string name="clock_type">digital</string>
+    <string name="clock_type">analog</string>
 
     <!-- general settings -->
     <string name="has_second">true</string>
@@ -38,9 +41,11 @@
     <string name="analog_three">hour</string>
 
     <!-- digital only settings -->
+    <!-- does nothing right now -->
     <string name="digitalFont">sweetFontPackageThing</string>
 
     <!-- X and Y settings must be set together -->
+    <!-- X and Y are from the top left corner of the screen -->
     <string name="hour_x">75</string>
     <string name="hour_y">75</string>
 
@@ -50,24 +55,28 @@
     <string name="ampm_x">175</string>
     <string name="ampm_y">125</string>
 
+
+    <!-- color of text for digital watchfaces -->
     <string name="hourColor">#000000</string>
     <string name="minuteColor">#000000</string>
     <string name="ampmColor">#000000</string>
 
+    <!-- color of text when the watch dims for watchfaces -->
     <string name="hourDimColor">#ffffff</string>
     <string name="minuteDimColor">#ffffff</string>
     <string name="ampmDimColor">#ffffff</string>
 
-    <string name="hourSize">60</string>
-    <string name="minuteSize">90</string>
+    <!-- font size in sp -->
+    <string name="hourSize">150</string>
+    <string name="minuteSize">200</string>
     <string name="ampmSize">50</string>
 
+    <!-- font styles, 0 = fill, 1 = fill and stroke, 2 = stroke -->
     <string name="hourStyle">0</string>
     <string name="minuteStyle">0</string>
     <string name="ampmStyle">0</string>
 
-    <!-- this is a float, and it should really be an actual fucking float along with all the otehr numbers here
-    but lazyness right now is at an all time high, once we rewrite the actual on the phone app, then we can do that shit -->
+    <!-- stroke of text -->
     <string name="hourStroke">0.0</string>
     <string name="minuteStroke">0.0</string>
     <string name="ampmStroke">0.0</string>
@@ -78,6 +87,9 @@
     <string name="shadowMinute">false</string>
     <string name="shadowAMPM">false</string>
 
+    <!-- these settings are the same as can be found in
+    http://developer.android.com/reference/android/graphics/Paint.html#setShadowLayer(float, float, float, int)
+    pretty simple stuff, radius = radius ect -->
     <string name="hourShadowRadius">0.0</string>
     <string name="minuteShadowRadius">0.0</string>
     <string name="ampmShadowRadius">0.0</string>
@@ -93,6 +105,7 @@
     <string name="ampmShadowColor">#ffffff</string>
 
     <!-- type of background for digital [color, drawable]-->
+    <!-- does nothing right now -->
     <string name="backgroundType">color</string>
     <string name="backgroundColor">#ffffff</string>
     <string name="backgroundDimColor">#000000</string>
@@ -100,10 +113,7 @@
     <string name="backgroundDimDrawable">digitalDimBackground</string>
 
     <!-- can be overridden by user -->
+    <!-- does nothing right now -->
     <string name="digitalColor">sweetFontPackageThing</string>
-
-
-
-
 
 </resources>
