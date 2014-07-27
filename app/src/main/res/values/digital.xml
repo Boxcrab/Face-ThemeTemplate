@@ -16,34 +16,37 @@
     <string name="ampm_x">175</string>
     <string name="ampm_y">125</string>
 
+
+
+
     <!-- color of text for digital watchfaces -->
     <string name="hourColor">#FFFFFF</string>
     <string name="minuteColor">#000000</string>
     <string name="ampmColor">#000000</string>
 
+
     <string name="ambienthourColor">#FFA500</string>
     <string name="ambientminuteColor">#000000</string>
     <string name="ambientampmColor">#000000</string>
-
-    <!-- color of text when the watch dims for watchfaces -->
-    <string name="hourDimColor">#ffffff</string>
-    <string name="minuteDimColor">#ffffff</string>
-    <string name="ampmDimColor">#ffffff</string>
+    <string name="ambientsecondsColor">#000000</string>
 
     <!-- font size in sp -->
     <string name="hourSize">50</string>
     <string name="minuteSize">50</string>
     <string name="ampmSize">50</string>
 
+
     <!-- font styles, 0 = fill, 1 = fill and stroke, 2 = stroke -->
     <string name="hourStyle">0</string>
     <string name="minuteStyle">0</string>
     <string name="ampmStyle">0</string>
 
+
     <!-- stroke of text -->
     <string name="hourStroke">0.0</string>
     <string name="minuteStroke">0.0</string>
     <string name="ampmStroke">0.0</string>
+    <string name="secondsstroke">0.0</string>
 
     <!-- shadow stuff -->
     <string name="shadowOnlyOnWake">true</string>
@@ -64,9 +67,12 @@
     <string name="minuteShadowDy">1.0</string>
     <string name="ampmShadowDy">1.0</string>
 
+
     <string name="hourShadowColor">#FFFFFF</string>
     <string name="minuteShadowColor">#FFFFFF</string>
     <string name="ampmShadowColor">#00F000</string>
+
+
 
     <!-- type of background for digital [color, drawable]-->
     <!-- does nothing right now -->
@@ -78,10 +84,24 @@
 
     <string name="military">true</string>
 
-    <!-- can be overridden by user -->
-    <!-- does nothing right now -->
-    <string name="digitalColor">sweetFontPackageThing</string>
 
+    <string name="secondsColor">#FFFFFF</string>
+    <string name="secondsSize">50</string>
+
+    <string name="secondsStyle">0</string>
+
+    <string name="hasSeconds">true</string>
+    <string name="disableAMPM">true</string>
+
+    <string name="hasSecondsShadow">false</string>
+    <string name="secondsStroke">0.0</string>
+    <string name="secondsShadowRadius">1.0</string>
+    <string name="secondsShadowDx">1.0</string>
+    <string name="secondsShadowDy">1.0</string>
+    <string name="secondsShadowColor">#000000</string>
+    <string name="seconds_x">175</string>
+    <string name="seconds_y">125</string>
+    <string name="secondssymbol">:</string>
 
 
 </resources>
