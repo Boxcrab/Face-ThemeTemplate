@@ -17,9 +17,13 @@
     <string name="ampm_y">125</string>
 
     <!-- color of text for digital watchfaces -->
-    <string name="hourColor">#000000</string>
+    <string name="hourColor">#FFFFFF</string>
     <string name="minuteColor">#000000</string>
     <string name="ampmColor">#000000</string>
+
+    <string name="ambienthourColor">#FFA500</string>
+    <string name="ambientminuteColor">#000000</string>
+    <string name="ambientampmColor">#000000</string>
 
     <!-- color of text when the watch dims for watchfaces -->
     <string name="hourDimColor">#ffffff</string>
@@ -27,8 +31,8 @@
     <string name="ampmDimColor">#ffffff</string>
 
     <!-- font size in sp -->
-    <string name="hourSize">150</string>
-    <string name="minuteSize">200</string>
+    <string name="hourSize">50</string>
+    <string name="minuteSize">50</string>
     <string name="ampmSize">50</string>
 
     <!-- font styles, 0 = fill, 1 = fill and stroke, 2 = stroke -->
@@ -44,25 +48,25 @@
     <!-- shadow stuff -->
     <string name="shadowOnlyOnWake">true</string>
     <string name="shadowHour">false</string>
-    <string name="shadowMinute">false</string>
-    <string name="shadowAMPM">false</string>
+    <string name="shadowMinute">true</string>
+    <string name="shadowAMPM">true</string>
 
     <!-- these settings are the same as can be found in
     http://developer.android.com/reference/android/graphics/Paint.html#setShadowLayer(float, float, float, int)
     pretty simple stuff, radius = radius ect -->
-    <string name="hourShadowRadius">0.0</string>
-    <string name="minuteShadowRadius">0.0</string>
-    <string name="ampmShadowRadius">0.0</string>
-    <string name="hourShadowDx">0.0</string>
-    <string name="minuteShadowDx">0.0</string>
-    <string name="ampmShadowDx">0.0</string>
-    <string name="hourShadowDy">0.0</string>
-    <string name="minuteShadowDy">0.0</string>
-    <string name="ampmShadowDy">0.0</string>
+    <string name="hourShadowRadius">1.0</string>
+    <string name="minuteShadowRadius">1.0</string>
+    <string name="ampmShadowRadius">1.0</string>
+    <string name="hourShadowDx">1.0</string>
+    <string name="minuteShadowDx">1.0</string>
+    <string name="ampmShadowDx">1.0</string>
+    <string name="hourShadowDy">1.0</string>
+    <string name="minuteShadowDy">1.0</string>
+    <string name="ampmShadowDy">1.0</string>
 
-    <string name="hourShadowColor">#ffffff</string>
-    <string name="minuteShadowColor">#ffffff</string>
-    <string name="ampmShadowColor">#ffffff</string>
+    <string name="hourShadowColor">#FFFFFF</string>
+    <string name="minuteShadowColor">#FFFFFF</string>
+    <string name="ampmShadowColor">#00F000</string>
 
     <!-- type of background for digital [color, drawable]-->
     <!-- does nothing right now -->
@@ -71,6 +75,8 @@
     <string name="backgroundDimColor">#000000</string>
     <string name="backgroundDrawable">digitalBackground</string>
     <string name="backgroundDimDrawable">digitalDimBackground</string>
+
+    <string name="military">true</string>
 
     <!-- can be overridden by user -->
     <!-- does nothing right now -->

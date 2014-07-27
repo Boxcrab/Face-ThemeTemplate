@@ -10,7 +10,7 @@
     <string name="author">WJD</string>
 
     <!-- options: analog, digital -->
-    <string name="clock_type">analog</string>
+    <string name="clock_type">digital</string>
 
     <!-- general settings -->
     <string name="has_second">true</string>
