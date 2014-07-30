@@ -12,6 +12,8 @@
     <!-- options: analog, digital -->
     <string name="clock_type">digital</string>
 
+    <string name="price">Free</string>
+
     <!-- general settings -->
     <string name="has_second">true</string>
     <string name="has_background">false</string>
