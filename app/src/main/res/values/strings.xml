@@ -12,7 +12,11 @@
     <!-- options: analog, digital -->
     <string name="clock_type">digital</string>
 
+    <!-- price should be either Free or 0.00 -->
     <string name="price">Free</string>
+    
+    <!-- contact email will be public to the user -->
+    <string name="contactemail">stuff@things.com</string>
 
     <!-- general settings -->
     <string name="has_second">true</string>
