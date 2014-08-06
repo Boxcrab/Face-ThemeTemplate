@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources >
+
     <!-- global settings for app interfacing, do not change without checking the git -->
     <!-- as the application updates, so will this as more features are added and things get changed -->
     <!-- any removals will be depreciated before we lose them entirely -->
@@ -26,6 +27,6 @@
     <!-- ambient settings -->
     <string name="has_ambient">false</string>
     <string name="has_ambientsecond">false</string>
-    <string name="dim_justDropBG">true</string>
+    <string name="dim_dropBackground">true</string>
 
 </resources>
