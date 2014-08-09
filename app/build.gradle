@@ -5,7 +5,7 @@ android {
     buildToolsVersion "20.0.0"
 
     defaultConfig {
-        applicationId "skylimit.themetemplate"
+        applicationId "boxcrab.themetemplate"
         minSdkVersion 18
         targetSdkVersion 20
         versionCode 1

@@ -5,103 +5,131 @@
     <!-- does nothing right now -->
     <string name="digitalFont">sweetFontPackageThing</string>
 
-    <!-- X and Y settings must be set together -->
-    <!-- X and Y are from the top left corner of the screen -->
-    <string name="hour_x">75</string>
-    <string name="hour_y">75</string>
-
-    <string name="minute_x">75</string>
-    <string name="minute_y">150</string>
-
-    <string name="ampm_x">175</string>
-    <string name="ampm_y">125</string>
-
-
-
-
-    <!-- color of text for digital watchfaces -->
-    <string name="hourColor">#FFFFFF</string>
-    <string name="minuteColor">#000000</string>
-    <string name="ampmColor">#000000</string>
-
-
-    <string name="ambienthourColor">#FFA500</string>
-    <string name="ambientminuteColor">#000000</string>
-    <string name="ambientampmColor">#000000</string>
-    <string name="ambientsecondsColor">#000000</string>
-
-    <!-- font size in sp -->
-    <string name="hourSize">50</string>
-    <string name="minuteSize">50</string>
-    <string name="ampmSize">50</string>
-
-
-    <!-- font styles, 0 = fill, 1 = fill and stroke, 2 = stroke -->
-    <string name="hourStyle">0</string>
-    <string name="minuteStyle">0</string>
-    <string name="ampmStyle">0</string>
-
-
-    <!-- stroke of text -->
-    <string name="hourStroke">0.0</string>
-    <string name="minuteStroke">0.0</string>
-    <string name="ampmStroke">0.0</string>
-    <string name="secondsstroke">0.0</string>
-
     <!-- shadow stuff -->
     <string name="shadowOnlyOnWake">true</string>
-    <string name="shadowHour">false</string>
-    <string name="shadowMinute">true</string>
-    <string name="shadowAMPM">true</string>
 
-    <!-- these settings are the same as can be found in
-    http://developer.android.com/reference/android/graphics/Paint.html#setShadowLayer(float, float, float, int)
-    pretty simple stuff, radius = radius ect -->
-    <string name="hourShadowRadius">1.0</string>
-    <string name="minuteShadowRadius">1.0</string>
-    <string name="ampmShadowRadius">1.0</string>
-    <string name="hourShadowDx">1.0</string>
-    <string name="minuteShadowDx">1.0</string>
-    <string name="ampmShadowDx">1.0</string>
-    <string name="hourShadowDy">1.0</string>
-    <string name="minuteShadowDy">1.0</string>
-    <string name="ampmShadowDy">1.0</string>
+    <string name="clockBuilder">MMM\ndd\nh:m\naa\nss\nhh\nmm</string>
 
+    <string name="clockItems">
+        [
+            {
+                "index": 0,
+                "type": "text",
+                "center": true,
+                "size": 30,
+                "style": 1,
+                "stroke": 0,
+                "shadowRadius": 0,
+                "shadowx": 0,
+                "shadowy": 0,
+                "shadowColor": "FFFFFF",
+                "textColor": "FFFFFF",
+                "ambTextColor": "FFFFFF",
+                "x": 75,
+                "y": 20
+            },
+            {
+                "index": 0,
+                "type": "text",
+                "center": true,
+                "size": 30,
+                "style": 1,
+                "stroke": 0,
+                "shadowRadius": 0,
+                "shadowx": 0,
+                "shadowy": 0,
+                "shadowColor": "FFFFFF",
+                "textColor": "FFFFFF",
+                "ambTextColor": "FFFFFF",
+                "x": 50,
+                "y": 30
+            },
+            {
+                "index": 0,
+                "type": "text",
+                "center": true,
+                "size": 60,
+                "style": 1,
+                "stroke": 0,
+                "shadowRadius": 0,
+                "shadowx": 20,
+                "shadowy": 20,
+                "shadowColor": "0000FF",
+                "textColor": "FFFFFF",
+                "ambTextColor": "FFFFFF",
+                "x": 25,
+                "y": 50
+            },
+            {
+                "index": 0,
+                "type": "text",
+                "center": true,
+                "size": 60,
+                "style": 1,
+                "stroke": 1,
+                "shadowRadius": 0,
+                "shadowx": 0,
+                "shadowy": 0,
+                "shadowColor": "FFFFFF",
+                "textColor": "FFA500",
+                "ambTextColor": "FFFFFF",
+                "x": 100,
+                "y": 70
+            },
+            {
+                "index": 0,
+                "type": "image",
+                "center": true,
+                "size": 60,
+                "style": 1,
+                "stroke": 1,
+                "shadowRadius": 0,
+                "shadowx": 0,
+                "shadowy": 0,
+                "shadowColor": "FFFFFF",
+                "textColor": "FFA500",
+                "ambTextColor": "FFFFFF",
+                "x": 100,
+                "y": 70
+            },
+            {
+                "index": 0,
+                "type": "image",
+                "center": true,
+                "size": 60,
+                "style": 1,
+                "stroke": 1,
+                "shadowRadius": 0,
+                "shadowx": 0,
+                "shadowy": 0,
+                "shadowColor": "FFFFFF",
+                "textColor": "FFA500",
+                "ambTextColor": "FFFFFF",
+                "x": 100,
+                "y": 70
+            },
+            {
+                "index": 0,
+                "type": "image",
+                "center": true,
+                "size": 60,
+                "style": 1,
+                "stroke": 1,
+                "shadowRadius": 0,
+                "shadowx": 0,
+                "shadowy": 0,
+                "shadowColor": "FFFFFF",
+                "textColor": "FFA500",
+                "ambTextColor": "FFFFFF",
+                "x": 100,
+                "y": 70
+            }
+        ]
+    </string>
 
-    <string name="hourShadowColor">#FFFFFF</string>
-    <string name="minuteShadowColor">#FFFFFF</string>
-    <string name="ampmShadowColor">#00F000</string>
-
-
-
-    <!-- type of background for digital [color, drawable]-->
-    <!-- does nothing right now -->
     <string name="backgroundType">color</string>
     <string name="backgroundColor">#ffffff</string>
     <string name="backgroundDimColor">#000000</string>
     <string name="backgroundDrawable">digitalBackground</string>
     <string name="backgroundDimDrawable">digitalDimBackground</string>
-
-    <string name="military">true</string>
-
-
-    <string name="secondsColor">#FFFFFF</string>
-    <string name="secondsSize">50</string>
-
-    <string name="secondsStyle">0</string>
-
-    <string name="hasSeconds">true</string>
-    <string name="disableAMPM">true</string>
-
-    <string name="hasSecondsShadow">false</string>
-    <string name="secondsStroke">0.0</string>
-    <string name="secondsShadowRadius">1.0</string>
-    <string name="secondsShadowDx">1.0</string>
-    <string name="secondsShadowDy">1.0</string>
-    <string name="secondsShadowColor">#000000</string>
-    <string name="seconds_x">175</string>
-    <string name="seconds_y">125</string>
-    <string name="secondssymbol">:</string>
-
-
 </resources>
