@@ -29,7 +29,8 @@
             {
                 "index": 0,
                 "type": "cover",
-                "name": "dial"
+                "name": "dial",
+                "ambient": "whateveryouwant"
             },
             {
                 "index": 0,
