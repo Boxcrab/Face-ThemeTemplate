@@ -22,7 +22,6 @@
 
     <!-- shadow stuff -->
     <string formatted="false" name="clockBuilder">bg\n%b %d\n%I:%M\n%P\n%S\n%I\n%M</string>
-    <string name="clockFont">font</string>
     <string name="clockItems">
         [
 
@@ -46,7 +45,11 @@
                 "textColor": "FFFFFF",
                 "ambTextColor": "FFFFFF",
                 "x": 75,
-                "y": 20
+                "y": 20,
+                "fontname": "font";
+                "usesargb": true;
+                "argb": "0,0,0,0";
+                "ambargb": "0,0,0,0"
             },
             {
                 "index": 0,
