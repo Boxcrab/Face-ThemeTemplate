@@ -46,10 +46,10 @@
                 "ambTextColor": "FFFFFF",
                 "x": 75,
                 "y": 20,
-                "fontname": "font";
-                "usesargb": true;
-                "argb": "0,0,0,0";
-                "ambargb": "0,0,0,0"
+                "fontname": "font",
+                "usesargb": true,
+                "argb": "{a:100,r:255,g:255,b:255}",
+                "ambargb": "{a:100,r:255,g:255,b:255}"
             },
             {
                 "index": 0,
