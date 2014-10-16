@@ -4,7 +4,13 @@
     <!-- global settings for app interfacing, do not change without checking the git -->
     <!-- as the application updates, so will this as more features are added and things get changed -->
     <!-- any removals will be depreciated before we lose them entirely -->
-    <string name="version">1</string>
+    <string name="version">2</string>
+    
+    <!-- changelog -->
+    <!-- framework 2 - respect image placement with x and y -->
+    <!--             - 0, 0 is default placements -->
+    <!--             - static image 0,0 is top left corner -->
+    <!--             - hands 0,0 is center of screen -->
 
     <string name="name">Test Theme</string>
     <string name="localversion">1</string>
