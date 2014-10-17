@@ -104,8 +104,8 @@
                 "shadowColor": "FFFFFF",
                 "textColor": "FFA500",
                 "ambTextColor": "FFFFFF",
-                "x": 100,
-                "y": 70
+                "x": 0,
+                "y": 0
             },
             {
                 "index": 0,
@@ -121,8 +121,8 @@
                 "shadowColor": "FFFFFF",
                 "textColor": "FFA500",
                 "ambTextColor": "FFFFFF",
-                "x": 100,
-                "y": 70
+                "x": 0,
+                "y": 0
             },
             {
                 "index": 0,
@@ -138,8 +138,8 @@
                 "shadowColor": "FFFFFF",
                 "textColor": "FFA500",
                 "ambTextColor": "FFFFFF",
-                "x": 100,
-                "y": 70
+                "x": 0,
+                "y": 0
             }
         ]
     </string>
