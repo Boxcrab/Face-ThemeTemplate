@@ -22,10 +22,6 @@
     <!-- contact email will be public to the user -->
     <string name="contactemail">stuff@things.com</string>
 
-    <!-- for now this should only be digital, this is a legacy string that must be kept until
-     we remove the old clock option -->
-    <string name="clock_type">digital</string>
-
     <!-- shadow stuff -->
     <string formatted="false" name="clockBuilder">bg\n%b %d\n%I:%M\n%P\n%S\n%I\n%M</string>
     <string name="clockItems">
@@ -92,8 +88,8 @@
             {
                 "index": 0,
                 "type": "image",
-                "name": "second";
-                "ambient": "second";
+                "name": "second",
+                "ambient": "second",
                 "center": true,
                 "size": 60,
                 "style": 1,
@@ -110,7 +106,7 @@
             {
                 "index": 0,
                 "type": "image",
-                "name": "hour";
+                "name": "hour",
                 "center": true,
                 "size": 60,
                 "style": 1,
@@ -127,7 +123,7 @@
             {
                 "index": 0,
                 "type": "image",
-                "name": "minute";
+                "name": "minute",
                 "center": true,
                 "size": 60,
                 "style": 1,
