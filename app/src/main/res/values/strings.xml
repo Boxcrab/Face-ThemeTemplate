@@ -12,7 +12,7 @@
     <!--             - static image 0,0 is top left corner -->
     <!--             - hands 0,0 is center of screen -->
 
-    <string name="name">Test Theme</string>
+    <string name="name">BirdFace</string>
     <string name="localversion">1</string>
     <string name="author">boxcrab</string>
 
@@ -23,15 +23,14 @@
     <string name="contactemail">stuff@things.com</string>
 
     <!-- shadow stuff -->
-    <string formatted="false" name="clockBuilder">bg\n%b %d\n%I:%M\n%P\n%S\n%I\n%M</string>
+    <string formatted="false" name="clockBuilder">bg\n%b %d\n%I:%M\n%P</string>
     <string name="clockItems">
         [
 
             {
                 "index": 0,
                 "type": "cover",
-                "name": "dial",
-                "ambient": "whateveryouwant"
+                "name": "dial"
             },
             {
                 "index": 0,
@@ -84,58 +83,38 @@
                 "ambTextColor": "FFFFFF",
                 "x": 100,
                 "y": 70
+            }
+        ]
+    </string>
+
+
+
+
+    <!-- Enable or disable dock -->
+    <string name="dockEnable">true</string>
+    <string formatted="false" name="dockBuilder">#BP \nBattery</string>
+    <string name="dockItems">
+        [
+            {
+                "type": "sprite",
+                "center": true,
+                "name": "batterysheet",
+                "spriteWidth": 200,
+                "spriteHeight": 200,
+                "size": 40,
+                "usesargb": true,
+                "argb": "{a:255,r:4,g:153,b:231}",
+                "ambargb": "{a:255,r:4,g:153,b:231}",
+                "y": 40
             },
             {
-                "index": 0,
-                "type": "image",
-                "name": "second",
-                "ambient": "second",
+                "type": "text",
                 "center": true,
-                "size": 60,
-                "style": 1,
-                "stroke": 1,
-                "shadowRadius": 0,
-                "shadowx": 0,
-                "shadowy": 0,
-                "shadowColor": "FFFFFF",
-                "textColor": "FFA500",
-                "ambTextColor": "FFFFFF",
-                "x": 0,
-                "y": 0
-            },
-            {
-                "index": 0,
-                "type": "image",
-                "name": "hour",
-                "center": true,
-                "size": 60,
-                "style": 1,
-                "stroke": 1,
-                "shadowRadius": 0,
-                "shadowx": 0,
-                "shadowy": 0,
-                "shadowColor": "FFFFFF",
-                "textColor": "FFA500",
-                "ambTextColor": "FFFFFF",
-                "x": 0,
-                "y": 0
-            },
-            {
-                "index": 0,
-                "type": "image",
-                "name": "minute",
-                "center": true,
-                "size": 60,
-                "style": 1,
-                "stroke": 1,
-                "shadowRadius": 0,
-                "shadowx": 0,
-                "shadowy": 0,
-                "shadowColor": "FFFFFF",
-                "textColor": "FFA500",
-                "ambTextColor": "FFFFFF",
-                "x": 0,
-                "y": 0
+                "size": 30,
+                "usesargb": true,
+                "argb": "{a:255,r:255,g:255,b:255}",
+                "ambargb": "{a:255,r:255,g:255,b:255}",
+                "y": 60
             }
         ]
     </string>
