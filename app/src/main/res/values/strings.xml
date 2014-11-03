@@ -91,21 +91,22 @@
 
 
     <!-- Enable or disable dock -->
-    <string name="dockEnable">true</string>
+    <string name="has_dock">false</string>
     <string formatted="false" name="dockBuilder">#BP \nBattery</string>
     <string name="dockItems">
         [
             {
-                "type": "sprite",
+                "type": "image-pack",
                 "center": true,
-                "name": "batterysheet",
+                "name": "battery",
                 "spriteWidth": 200,
                 "spriteHeight": 200,
                 "size": 40,
                 "usesargb": true,
                 "argb": "{a:255,r:4,g:153,b:231}",
                 "ambargb": "{a:255,r:4,g:153,b:231}",
-                "y": 40
+                "y": 0,
+                "x": 0
             },
             {
                 "type": "text",
