@@ -34,6 +34,15 @@ public class MainActivity extends ActionBarActivity {
 
         try {
             pm.getPackageInfo("boxcrab.face", PackageManager.GET_ACTIVITIES);
+            faceLaunchItem.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    Intent intent = new Intent("boxcrab.face.LaunchTheme");
+                    intent.putExtra("itemPackage", getPackageName());
+                    intent.putExtra("isLocal", true);
+                    startActivity(intent);
+                }
+            });
+
         } catch (PackageManager.NameNotFoundException e) {
             faceLaunchIcon.setImageResource(R.drawable.ic_action_google_play);
             faceLaunchText.setText(R.string.face_not_installed);
