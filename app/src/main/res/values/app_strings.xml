@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="face_installed">Launch in Face for Wear</string>
+    <string name="face_not_installed">This Facepak requires Face for Wear. Click here to install it.</string>
+    <string name="follow_me">Follow me on Google+</string>
+    <string name="hide_launcher">Hide Launcher icon</string>
+    <string name="hide_launcher_dialog_title">Hide Launcher icon</string>
+    <string name="hide_launcher_dialog_message">This will remove the icon from the Launcher. You can still access this Watch Face within Face for Wear.</string>
+    <string name="join_community">Join the Face for Wear Community</string>
+    <string name="rate_application">Please rate this application</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+</resources>

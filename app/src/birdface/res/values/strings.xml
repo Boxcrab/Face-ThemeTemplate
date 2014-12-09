@@ -15,6 +15,7 @@
     <string name="name">BirdFace</string>
     <string name="localversion">1</string>
     <string name="author">boxcrab</string>
+    <string name="author_gplus">mygplusid</string>
 
     <!-- price should be either Free or 0.00 -->
     <string name="price">Free</string>
