@@ -32,8 +32,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.app_layout);
 
-        Bitmap previewImage = BitmapFactory.decodeResource(getResources(),
-                R.drawable.preview);
+        Bitmap previewImage = BitmapFactory.decodeResource(getResources(), R.drawable.preview);
         Palette p = Palette.generate(previewImage);
         final int dynamicColor = p.getDarkMutedColor(R.color.sky);
 
