@@ -6,10 +6,16 @@ import android.content.ComponentName;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.graphics.Palette;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.view.Window;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
@@ -26,8 +32,16 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.app_layout);
 
-        RelativeLayout faceLaunchItem = (RelativeLayout)findViewById(R.id.faceLaunchItem);
+        Bitmap previewImage = BitmapFactory.decodeResource(getResources(), R.drawable.preview);
+        Palette p = Palette.generate(previewImage);
+        final int dynamicColor = p.getDarkMutedColor(R.color.sky);
+
         ImageView faceLaunchIcon = (ImageView)findViewById(R.id.faceLaunchIcon);
+        ImageView hideLauncherIcon = (ImageView)findViewById(R.id.hideLauncherIcon);
+        ImageView joinCommunityIcon = (ImageView)findViewById(R.id.joinCommunityIcon);
+        ImageView rateApplicationIcon = (ImageView)findViewById(R.id.rateApplicationIcon);
+
+        RelativeLayout faceLaunchItem = (RelativeLayout)findViewById(R.id.faceLaunchItem);
         TextView faceLaunchText = (TextView)findViewById(R.id.faceLaunchText);
 
         final PackageManager pm = getPackageManager();
@@ -44,7 +58,7 @@ public class MainActivity extends ActionBarActivity {
             });
 
         } catch (PackageManager.NameNotFoundException e) {
-            faceLaunchIcon.setImageResource(R.drawable.ic_action_google_play);
+            faceLaunchIcon.setImageResource(R.drawable.ic_gplay);
             faceLaunchText.setText(R.string.face_not_installed);
             faceLaunchItem.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
@@ -96,6 +110,13 @@ public class MainActivity extends ActionBarActivity {
                 dialog.show();
             }
         });
+
+        findViewById(R.id.themeDetails).setBackgroundColor(dynamicColor);
+        faceLaunchIcon.setColorFilter(dynamicColor);
+        hideLauncherIcon.setColorFilter(dynamicColor);
+        joinCommunityIcon.setColorFilter(dynamicColor);
+        rateApplicationIcon.setColorFilter(dynamicColor);
+
     }
 
 }

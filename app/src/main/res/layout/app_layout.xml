@@ -99,10 +99,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/faceLaunchIcon"
-                android:src="@drawable/face_logo"
+                android:src="@drawable/ic_face"
                 android:maxHeight="48dp"
                 android:maxWidth="48dp"
-                android:paddingRight="20dp" />
+                android:paddingRight="12dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -125,10 +125,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/rateApplicationIcon"
-            android:src="@drawable/ic_action_star_10"
+            android:src="@drawable/ic_rate"
             android:maxHeight="48dp"
             android:maxWidth="48dp"
-            android:paddingRight="20dp" />
+            android:paddingRight="12dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -151,10 +151,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/joinCommunityIcon"
-                android:src="@drawable/ic_action_gplus"
+                android:src="@drawable/ic_gplus"
                 android:maxHeight="48dp"
                 android:maxWidth="48dp"
-                android:paddingRight="20dp" />
+                android:paddingRight="12dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -178,10 +178,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/hideLauncherIcon"
-                android:src="@drawable/ic_action_home"
+                android:src="@drawable/ic_hide"
                 android:maxHeight="48dp"
                 android:maxWidth="48dp"
-                android:paddingRight="20dp" />
+                android:paddingRight="12dp" />
 
             <TextView
                 android:layout_width="wrap_content"

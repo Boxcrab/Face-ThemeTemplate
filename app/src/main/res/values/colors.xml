@@ -8,6 +8,6 @@
     <color name="white">#FFFFFF</color>
     <color name="listcolor">#b2b5b9</color>
     <color name="grey">#e0e0e0</color>
-    <color name="black">#444</color>
+    <color name="black">#000</color>
     <color name="subgrey">#8d8d8d</color>
 </resources>
