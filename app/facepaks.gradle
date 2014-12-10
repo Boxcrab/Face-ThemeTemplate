@@ -1,0 +1,9 @@
+android{
+    productFlavors {
+        birdface {
+            applicationId 'boxcrab.birdface'
+            versionCode 1
+            versionName "1.0"
+        }
+    }
+}

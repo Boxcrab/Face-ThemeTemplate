@@ -34,7 +34,7 @@ public class MainActivity extends ActionBarActivity {
 
         Bitmap previewImage = BitmapFactory.decodeResource(getResources(), R.drawable.preview);
         Palette p = Palette.generate(previewImage);
-        final int dynamicColor = p.getDarkMutedColor(R.color.sky);
+        final int dynamicColor = p.getDarkVibrantColor(R.color.sky);
 
         ImageView faceLaunchIcon = (ImageView)findViewById(R.id.faceLaunchIcon);
         ImageView hideLauncherIcon = (ImageView)findViewById(R.id.hideLauncherIcon);
