@@ -5,7 +5,7 @@
         <item name="colorPrimary">@color/blue</item>
 
         <!-- colorPrimaryDark is used for the status bar -->
-        <item name="colorPrimaryDark">@color/sky</item>
+        <item name="colorPrimaryDark">@color/black</item>
 
         <!-- colorAccent is used as the default value for colorControlActivated
              which is used to tint widgets -->
