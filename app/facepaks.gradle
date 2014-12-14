@@ -5,5 +5,15 @@ android{
             versionCode 1
             versionName "1.0"
         }
+        ironide {
+            applicationId 'imwjd.ironide'
+            versionCode 2
+            versionName "1.1"
+        }
+        D2N {
+            applicationId 'imwjd.d2n'
+            versionCode 2
+            versionName "1.1"
+        }
     }
 }

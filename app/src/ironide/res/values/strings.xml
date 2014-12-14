@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <!-- global settings for app interfacing, do not change without checking the git -->
+    <!-- as the application updates, so will this as more features are added and things get changed -->
+    <!-- any removals will be depreciated before we lose them entirely -->
+    <string name="version">2</string>
+
+    <!-- changelog -->
+    <!-- framework 2 - respect image placement with x and y -->
+    <!--             - 0, 0 is default placements -->
+    <!--             - static image 0,0 is top left corner -->
+    <!--             - hands 0,0 is center of screen -->
+
+    <string name="name">Ironide</string>
+    <string name="localversion">1</string>
+    <string name="author">IMWJD</string>
+    <string name="author_gplus">WayneDrescherJr</string>
+    <!-- price should be either Free or 0.00 -->
+    <string name="price">0.99</string>
+
+    <!-- contact email will be public to the user -->
+    <string name="contactemail">wjd@imwjd.com</string>
+
+    <!-- for now this should only be digital, this is a legacy string that must be kept until
+     we remove the old clock option -->
+    <string name="clock_type">analog</string>
+
+    <!-- shadow stuff -->
+    <string formatted="false" name="clockBuilder">bg\n%I\n%S\n%M\n#BP\nbg</string>
+    <string name="clockItems">
+        [
+
+            {
+                "index": background,
+                "type": "cover",
+                "customBG": true,
+                "name": "dial"
+            },
+            {
+                "index": hour,
+                "type": "image",
+                "name": "hour",
+                "center": true,
+                "size": 60,
+                "style": 1,
+                "stroke": 1,
+                "shadowRadius": 0,
+                "shadowx": 0,
+                "shadowy": 0,
+                "shadowColor": "FFFFFF",
+                "textColor": "FFA500",
+                "ambTextColor": "FFFFFF",
+                "x": 0,
+                "hue": true,
+                "y": 0
+            },
+               {
+                "index": second,
+                "type": "image",
+                "name": "second",
+                "ambient": "second",
+                "center": true,
+                "size": 60,
+                "style": 1,
+                "stroke": 1,
+                "shadowRadius": 0,
+                "shadowx": 0,
+                "shadowy": 0,
+                "shadowColor": "FFFFFF",
+                "textColor": "FFA500",
+                "ambTextColor": "FFFFFF",
+                "x": 0,
+                "hue": true,
+                "smoothSecond": 100,
+                "y": 0
+            },
+            {
+                "index": minute,
+                "type": "image",
+                "name": "minute",
+                "center": true,
+                "size": 60,
+                "style": 1,
+                "stroke": 1,
+                "shadowRadius": 0,
+                "shadowx": 0,
+                "shadowy": 0,
+                "shadowColor": "FFFFFF",
+                "textColor": "FFA500",
+                "ambTextColor": "FFFFFF",
+                "x": 0,
+                "hue": true,
+                "y": 0
+            },
+            {
+                "name": "battery",
+                "center": true,
+                "size": 37,
+                "hue": true,
+                "y": 0,
+                "x": 0,
+                "type": "image-pack"
+           },
+
+           {
+                "index": overlay,
+                "type": "cover",
+                "name": "cover"
+            }
+
+        ]
+    </string>
+
+</resources>
