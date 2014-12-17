@@ -9,6 +9,13 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BlankActivity"
+            android:label="@string/name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
                 <category android:name="skylimit.face.THEME" />
             </intent-filter>
         </activity>
