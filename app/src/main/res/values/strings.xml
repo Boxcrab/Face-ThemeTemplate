@@ -4,7 +4,7 @@
     <!-- global settings for app interfacing, do not change without checking the git -->
     <!-- as the application updates, so will this as more features are added and things get changed -->
     <!-- any removals will be depreciated before we lose them entirely -->
-    <string name="version">2</string>
+    <string name="version">4</string>
     
     <!-- changelog -->
     <!-- framework 2 - respect image placement with x and y -->
