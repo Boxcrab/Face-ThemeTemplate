@@ -24,7 +24,7 @@
     <string name="contactemail">stuff@things.com</string>
 
     <!-- shadow stuff -->
-    <string formatted="false" name="clockBuilder">bg\n%b %d\n%I:%M\n%P</string>
+    <string formatted="false" name="clockBuilder">bg\n%b %d\n#WT\n#WS</string>
     <string name="clockItems">
         [
 
@@ -64,15 +64,18 @@
                 "shadowx": 20,
                 "shadowy": 20,
                 "shadowColor": "0000FF",
-                "textColor": "FFFFFF",
+                "textColor": "000000",
                 "ambTextColor": "FFFFFF",
-                "x": 25,
-                "y": 50
+                "x": 75,
+                "y": 20
             },
             {
                 "index": 0,
-                "type": "text",
+                "type": "image-pack",
+                "packtype": "weather",
+                "name": "weather",
                 "center": true,
+                "resize": false,
                 "size": 60,
                 "style": 1,
                 "stroke": 1,
@@ -100,8 +103,6 @@
                 "type": "image-pack",
                 "center": true,
                 "name": "battery",
-                "spriteWidth": 200,
-                "spriteHeight": 200,
                 "size": 40,
                 "usesargb": true,
                 "argb": "{a:255,r:4,g:153,b:231}",
