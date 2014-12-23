@@ -15,5 +15,15 @@ android{
             versionCode 2
             versionName "1.1"
         }
+        Basik {
+            applicationId 'imwjd.basik'
+            versionCode 1
+            versionName "1"
+        }
+        Esque {
+            applicationId 'imwjd.esque'
+            versionCode 1
+            versionName "1"
+        }
     }
 }
