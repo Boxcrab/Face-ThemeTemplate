@@ -23,7 +23,7 @@
     <string name="contactemail">wjd@imwjd.com</string>
 
     <!-- shadow stuff -->
-    <string formatted="false" name="clockBuilder">bg\nbg\nbg\n#WS\n%H:M</string>
+    <string formatted="false" name="clockBuilder">bg\nbg\n%I %M\nbg\n#WS\nbg</string>
    <string name="clockItems">
        [
 
@@ -35,11 +35,29 @@
        "name": "bg"
        },
        {
-       "index": Top,
+       "index": top,
        "type": "cover",
        "hue": true,
        "name": "top"
        },
+               {
+        "index": time,
+        "type": "text",
+        "align": "center",
+        "size": 70,
+        "style": 1,
+        "stroke": 0,
+        "shadowRadius": 0,
+        "shadowx": 0,
+        "shadowy": 0,
+        "shadowColor": "000000",
+       "usesargb": true,
+       "argb": "{a:200,r:255,g:255,b:255}",
+        "ambTextColor": "FFFFFF",
+        "fontname": "font",
+        "x": 50,
+        "y": 42
+        },
        {
        "index": middle,
        "type": "cover",
@@ -55,24 +73,11 @@
        "y": 50,
        "x": 50
         },
-        {
-        "index": Time,
-        "type": "text",
-        "align": "center",
-        "size": 25,
-        "style": 1,
-        "stroke": 0,
-        "shadowRadius": 10,
-        "shadowx": 0,
-        "shadowy": 0,
-        "shadowColor": "000000",
-       "usesargb": true,
-       "argb": "{a:200,r:255,g:255,b:255}",
-        "ambTextColor": "FFFFFF",
-        "fontname": "font",
-        "x": 50,
-        "y": 50
-        }
+       {
+       "name": "weathericons",
+        "index": icons,
+       "type": "cover"
+       }
        ]
    </string>
 
