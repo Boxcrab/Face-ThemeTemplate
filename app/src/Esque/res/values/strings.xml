@@ -23,7 +23,7 @@
     <string name="contactemail">wjd@imwjd.com</string>
 
     <!-- shadow stuff -->
-    <string formatted="false" name="clockBuilder">bg\nbg\n%I %M\nbg\n#WS\nbg</string>
+    <string formatted="false" name="clockBuilder">bg\nbg\n%I %M\nbg\nbg\n#WT°\n#HM%\n#PRE%\n#HI°\n#LO°\n#WS</string>
    <string name="clockItems">
        [
 
@@ -64,20 +64,109 @@
        "hue": true,
        "name": "middle"
        },
+          {
+       "index": middle,
+       "type": "cover",
+       "name": "weathericons"
+       },
+        {
+        "index": temp,
+        "type": "text",
+        "align": "left",
+        "size": 18,
+        "style": 1,
+        "stroke": 0,
+        "shadowRadius": 0,
+        "shadowx": 0,
+        "shadowy": 0,
+        "shadowColor": "000000",
+       "usesargb": true,
+       "argb": "{a:200,r:255,g:255,b:255}",
+        "ambTextColor": "FFFFFF",
+        "fontname": "font",
+        "x": 18,
+        "y": 75
+        },
+             {
+        "index": humidity,
+        "type": "text",
+        "align": "left",
+        "size": 18,
+        "style": 1,
+        "stroke": 0,
+        "shadowRadius": 0,
+        "shadowx": 0,
+        "shadowy": 0,
+        "shadowColor": "000000",
+       "usesargb": true,
+       "argb": "{a:200,r:255,g:255,b:255}",
+        "ambTextColor": "FFFFFF",
+        "fontname": "font",
+        "x": 45,
+        "y": 75
+        },
+                {
+        "index": precip,
+        "type": "text",
+        "align": "left",
+        "size": 18,
+        "style": 1,
+        "stroke": 0,
+        "shadowRadius": 0,
+        "shadowx": 0,
+        "shadowy": 0,
+        "shadowColor": "000000",
+       "usesargb": true,
+       "argb": "{a:200,r:255,g:255,b:255}",
+        "ambTextColor": "FFFFFF",
+        "fontname": "font",
+        "x": 74,
+        "y": 75
+        },
+                {
+        "index": high,
+        "type": "text",
+        "align": "left",
+        "size": 19,
+        "style": 1,
+        "stroke": 0,
+        "shadowRadius": 0,
+        "shadowx": 0,
+        "shadowy": 0,
+        "shadowColor": "000000",
+       "usesargb": true,
+       "argb": "{a:200,r:255,g:255,b:255}",
+        "ambTextColor": "FFFFFF",
+        "fontname": "font",
+        "x": 31,
+        "y": 87
+        },
+          {
+        "index": low,
+        "type": "text",
+        "align": "left",
+        "size": 19,
+        "style": 1,
+        "stroke": 0,
+        "shadowRadius": 0,
+        "shadowx": 0,
+        "shadowy": 0,
+        "shadowColor": "000000",
+       "usesargb": true,
+       "argb": "{a:200,r:255,g:255,b:255}",
+        "ambTextColor": "FFFFFF",
+        "fontname": "font",
+        "x": 60,
+        "y": 87
+        },
        {
        "name": "weather",
        "type": "image-pack",
        "packtype": "weather",
-       "resize": true,
-       "size": 20,
-       "y": 50,
-       "x": 50
-        },
-       {
-       "name": "weathericons",
-        "index": icons,
-       "type": "cover"
-       }
+       "resize": false,
+       "y": 128,
+       "x": 128
+        }
        ]
    </string>
 
