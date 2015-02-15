@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <!-- global settings for app interfacing, do not change without checking the git -->
+    <!-- as the application updates, so will this as more features are added and things get changed -->
+    <!-- any removals will be depreciated before we lose them entirely -->
+    <string name="version">4</string>
+    
+    <!-- changelog -->
+    <!-- framework 2 - respect image placement with x and y -->
+    <!--             - 0, 0 is default placements -->
+    <!--             - static image 0,0 is top left corner -->
+    <!--             - hands 0,0 is center of screen -->
+
+    <string name="name">ION</string>
+    <string name="localversion">1</string>
+    <string name="author">IMWJD</string>
+
+    <!-- price should be either Free or 0.00 -->
+    <string name="price">Free</string>
+    
+    <!-- contact email will be public to the user -->
+    <string name="contactemail">wjd@imwjd.com</string>
+
+    <!-- shadow stuff -->
+    <string formatted="false" name="clockBuilder">bg\nbg\n%I%M\n%a\n#WT°</string>
+   <string name="clockItems">
+       [
+       {
+         "index": Tick,
+        "type": "cover",
+       "name": "tick"
+       },
+       {
+        "index": Center,
+        "type": "cover",
+       "name": "center"
+       },
+        {
+        "index": Time,
+        "type": "text",
+        "align": "center",
+            "size": 70,
+        "style": 1,
+        "stroke": 0,
+        "shadowRadius": 0,
+        "shadowx": 0,
+        "shadowy": 0,
+        "shadowColor": "000000",
+       "usesargb": true,
+       "argb": "{a:255,r:137,g:137,b:137}",
+        "ambTextColor": "FFFFFF",
+        "fontname": "font",
+        "x": 50,
+        "y": 60
+        },
+         {
+        "index": Day,
+        "type": "text",
+        "align": "center",
+            "size": 40,
+        "style": 1,
+        "stroke": 0,
+        "shadowRadius": 0,
+        "shadowx": 0,
+        "shadowy": 0,
+        "shadowColor": "000000",
+       "usesargb": true,
+       "argb": "{a:255,r:137,g:137,b:137}",
+        "ambTextColor": "FFFFFF",
+        "fontname": "font",
+        "x": 50,
+        "y": 30
+        },
+        {
+        "index": Temp,
+        "type": "text",
+        "align": "center",
+            "size": 40,
+        "style": 1,
+        "stroke": 0,
+        "shadowRadius": 0,
+        "shadowx": 0,
+        "shadowy": 0,
+        "shadowColor": "000000",
+       "usesargb": true,
+       "argb": "{a:255,r:137,g:137,b:137}",
+        "ambTextColor": "FFFFFF",
+        "fontname": "font",
+       "align": "left",
+        "x": 46,
+        "y": 82
+        }
+
+       ]
+   </string>
+
+
+
+</resources>
