@@ -25,5 +25,10 @@ android{
             versionCode 1
             versionName "1"
         }
+        ION {
+            applicationId 'imwjd.ion'
+            versionCode 1
+            versionName "1"
+        }
     }
 }
