@@ -25,7 +25,11 @@ android{
             versionCode 1
             versionName "1"
         }
+<<<<<<< Updated upstream
         ION {
+=======
+        Ion {
+>>>>>>> Stashed changes
             applicationId 'imwjd.ion'
             versionCode 1
             versionName "1"
