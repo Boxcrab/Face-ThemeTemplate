@@ -75,7 +75,10 @@ function combinedCenteredColorStrings(string, first, second, firstColor, secondC
 
 function customString(s, x, y, item, modifier) {
   var blueColor = parseHexColor("#00a2ff")
+
   var whiteColor = parseHexColor("#898989")
+
+
 
   var width = androidCanvas.getWidth();
   var textwidth = androidPaint.measureText(s)
@@ -118,4 +121,8 @@ function customImage(item, x, y, image, rotation) {
   // return to let you know what the color ended up being.
   // return here is not needed just for logging perpous
   return "Image Drawn NEW: " + i;
+
 }
+
+}
+
