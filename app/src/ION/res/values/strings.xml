@@ -23,7 +23,7 @@
     <string name="contactemail">wjd@imwjd.com</string>
 
     <!-- shadow stuff -->
-    <string formatted="false" name="clockBuilder">%S\nbg\n%I%M\n%a\n#WT°</string>
+    <string formatted="false" name="clockBuilder">%S\nbg\nbg\n%I%M\n%a\n#WT°</string>
    <string name="clockItems">
        [
        {
@@ -32,10 +32,15 @@
        "name": "tick",
        "customDraw": true
        },
+            {
+        "index": BG,
+        "type": "cover",
+       "name": "ionoverlay"
+       },
        {
         "index": Center,
         "type": "cover",
-       "name": "center"
+       "name": "iontop"
        },
         {
         "index": Time,
